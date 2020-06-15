@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), 
+  local('Roboto-Medium'), 
+  url(../../assets/font/Roboto-Medium.ttf) 
+  format('truetype');
+  unicode-range: U+0000-00FF, U+0131, 
+  U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, 
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, 
+  U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'),
+  local('Roboto-Regular'), 
+  url(../../assets/font/Roboto-Regular.ttf) 
+  format('truetype');
+  unicode-range: U+0000-00FF, U+0131, 
+  U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, 
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, 
+  U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.edit-profile-wrapper {
+  padding: 50px 135px;
+  overflow: hidden;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.panel-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* flex-flow: wrap row; */
+  width: 100%;
+  height: auto;
+}
+
+.panel-left {
+  border-radius: 5px;
+  width: 21%;
+  max-height: 420px;
+  padding: 30px 20px;
+  box-shadow: 
+    0px 2px 10px rgba(0, 0, 0, 0.05),
+    0px -2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.avatar {
+  margin: 0 auto;
+  width: 145px;
+  display: block;
+  padding: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.user-name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 3px;
+  color: #4D4D4D;
+}
+
+.user-time {
+  text-align: center;
+  font-size: 12px;
+  color: #757575;
+}
+
+.navigation-panel-wrapper {
+  padding: 25px 0;
+  /* background-color: yellow; */
+}
+
+.navigation-item-profile {
+  background-color: #FFF !important;
+  color: #757575 !important;
+  font-size: 14px;
+}
+
+.navigation-item-profile.active {
+  background-color: #FFF !important;
+  color: #007AFF !important;
+}
+
+.navigation-item-wrapper hr {
+  margin: 2px !important;
+}
+
+.h1-profile {
+  font-size: 19px !important;
+  color: #007AFF;
+}
+
+.panel-right {
+  min-height: 100vh;
+  padding: 20px 20px;
+  box-shadow: 
+    0px 2px 10px rgba(0, 0, 0, 0.05),
+    0px -2px 10px rgba(0, 0, 0, 0.05);
+  width: 76%;
+}
+
+.profile-wrapper {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-left {
+  width: 30%;
+  max-height: 340px;
+  border-radius: 5px;
+  background-color: #F7F7F7;
+  padding: 15px;
+}
+
+.profile-left p {
+  color: #757575;
+  font-size: 10px;
+  margin: 0;
+  
+}
+
+.profile-avatar {
+  /* background-color: blue; */
+  width: 100%;
+  border-radius: 5px;
+}
+
+.profile-right {
+  width: 68%;
+  /* background-color: blue; */
+}
+
+.profile-button {
+  width: 100%;
+  background-color: #FFF !important;
+  color: #757575 !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  /* height: 2px !important; */
+  margin: 20px 0;
+  border: 1px solid #E0E0E0 !important;
+}
+
+.profile-gender {
+  display: flex;
+  justify-self: start;
+}
+
+.profile-checkbox {
+  margin-right: 10px;
+  align-items: center;
+  vertical-align: middle;
+  display: flex !important;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.profile-checkbox .form-check-input {
+      margin-top: 0 !important;
+}
+
+.profile-submit-button {
+  background-color: #007AFF !important;
+  width: 240px;
+  margin: 20px 0;
+}
+
+.react-datepicker-wrapper {
+  display: block !important;
+}

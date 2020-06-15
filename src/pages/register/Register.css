@@ -1,0 +1,196 @@
+.Register-page{
+    position: relative;
+    /* width: 1440px; */
+    height: 100vh;
+    background: #FAFEFF;
+}
+
+.Register-logo{
+    position: absolute; 
+    width: 149px;
+    height: 46px;
+    margin-left: 4%;
+    margin-top: 48px;
+
+}
+
+.Register-card{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    /* margin-top: 50px; */
+}
+
+.Register-banner{
+    float: left;
+    position: absolute;
+    width: 500px;
+    height: 426px;
+    /* left: 203px; */
+    top: 100px;
+}
+
+.Register-form {
+  width: 45%;
+  overflow: hidden;
+  float: left;
+  margin-left: 52%;
+  padding: 20px 64px 20px 64px;
+  margin-top: 80px;
+  background: #FFFFFF;
+  box-shadow:  0px -5px 10px rgba(0, 122, 255, 0.15), 0px 5px 10px rgba(0, 122, 255, 0.15);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.Register-donate-tagline{
+    position: absolute;
+    width: 500px;
+    height: 28px;
+    /* left: 90px; */
+    /* top: 603px; */
+    top: 360px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.Register-donate-description{
+    position: absolute;
+    width: 500px;
+    height: 28px;
+    /* left: 30px; */
+    top: 392px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+
+    color: #757575;
+}
+
+
+
+.Register-text1{
+    position: absolute;
+    width: 187px;
+    height: 30px;
+    left: 63%;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #4D4D4D;
+}
+
+
+.Register-text2{
+    position: inherit;
+    height: 19px;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+    margin-bottom: 28px;
+}
+
+.Register-Link-login{
+    color:blue;
+}
+
+.Form-registrasi{
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.Form-registrasi label{
+    display: block;
+    margin-bottom: 5px;
+    float: left;
+    font-size: 14px;
+    color: #757575;;
+}
+
+.Register-submit-btn {
+    width: 100%;
+    height: 42px;
+    background: #E0E0E0;
+    border-radius: 5px;
+    border-style: none;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* identical to box height */
+
+    color: #757575;
+}
+
+.Form-registrasi input{
+    width: 100%;
+    padding-left: 15px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.1;
+    color: #495057;
+}
+
+.Form-registrasi button {
+    margin-left: -50px;
+    border-style: none;
+    background-color: white;
+}
+
+.Register-FooterText{
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Register-FooterLink{
+    color: deepskyblue;
+}
+
+
+.Register-hidePassword{
+    font-size: 17px;
+    color: #B2B2B2;
+    margin-left: -40px;
+}
+
+.Register-error{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    color: #D02626;
+}
+
+.Register-name-input{
+    display: flex;
+    width: 100%;
+}
+
+.Register-name{
+    margin-right: 30px;
+}

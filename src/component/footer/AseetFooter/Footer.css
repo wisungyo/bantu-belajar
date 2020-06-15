@@ -1,0 +1,79 @@
+
+.background{
+width:100%;
+color: ivory;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+
+}
+.bagian-atas {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #012048;
+    height: 346px;
+}
+
+.bagian-bawah {
+    height: 48;
+    background-color:#011D41;
+    border: 10px;
+    text-align: center;
+    font-family: roboto;
+}
+
+.container .card-footer p {
+    text-align: center;
+    color:white;
+    font-size: 14px;
+}
+
+.container .Footer {
+    background-color:#012048 ;
+    color: aliceblue;
+    width: 1440px;
+    height:394px;
+}
+
+.container .Footer .container-footer .paragram-satu p {
+    margin-top: 0%;
+    margin-bottom: 35%;
+    margin-left: 20%;
+    margin-right: 13%;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container .Footer .container-footer .paragram-satu .gambarlogo {
+    margin-top: 18%;
+    margin-left: 20%;
+    margin-right: 13%;
+}
+
+
+.container .Footer .container-footer .col-sm-kedua {
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 5%;
+    margin-bottom: 35%;
+    margin-left: 5%;
+
+}
+.container .Footer .container-footer .col-sm-kedua .alamat {
+    margin-right:49%;
+ 
+}
+
+.container .Footer .container-footer .col-sm-kedua .judul-footer {
+    margin-right:49%;
+}
+
+
+.container .Footer .container-footer .col-sm-judul-kiri {
+    margin-top: 5%;
+    margin-right: 15%;
+    font-size: 14px;
+    line-height: 20px;
+}

@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), 
+  local('Roboto-Medium'), 
+  url(../../assets/font/Roboto-Medium.ttf) 
+  format('truetype');
+  unicode-range: U+0000-00FF, U+0131, 
+  U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, 
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, 
+  U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'),
+  local('Roboto-Regular'), 
+  url(../../assets/font/Roboto-Regular.ttf) 
+  format('truetype');
+  unicode-range: U+0000-00FF, U+0131, 
+  U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, 
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, 
+  U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.wrapper-forget {
+  background-color: #fafeff;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.logo-forget {
+  margin: 50px auto auto 50px;
+  display: flex;
+}
+
+.form-forget {
+  padding: 64px 84px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 570px;
+  height: 426px;
+  margin-top: -213px;
+  margin-left: -235px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 
+    0px -5px 10px rgba(0, 122, 255, 0.15), 
+    0px 5px 10px rgba(0, 122, 255, 0.15);
+}
+
+.title-form {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  text-align: center;
+  color: #4D4D4D;
+}
+
+.subtitle-form {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  color: #757575;
+}
+
+.text-field {
+  font-size: 14px;
+  color: #757575;
+}
+
+.group-email input {
+  border: 1px solid #E0E0E0;
+}
+
+.group-email input:focus {
+  border: 1px solid #E0E0E0;
+  outline: none;
+  box-shadow: none;
+}
+
+.button-form {
+  width: 100%;
+  margin-top: 15px !important ;
+  /* background: #E0E0E0 !important;
+  color: #757575 !important; */
+  border: none !important;
+}
+
+.footer-subtitle-form {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 24px;
+  text-align: center;
+  color: #757575;
+}

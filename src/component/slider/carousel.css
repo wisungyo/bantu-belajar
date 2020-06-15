@@ -1,0 +1,8 @@
+ol li {
+    background-color: #007aff !important;
+    width: 15px !important;
+    height: 15px !important;
+    border: 1px solid #007aff !important;
+    border-radius: 100%;
+    background-clip: unset !important;
+  }

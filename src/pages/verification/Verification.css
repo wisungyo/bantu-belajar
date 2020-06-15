@@ -1,0 +1,44 @@
+.Verification{
+  margin: auto;
+}
+
+.Verification-card{
+  width: 45%;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.Verification-text{
+  padding-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #4D4D4D;
+}
+
+.Verification-description{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #757575;
+  margin-bottom: 70px;
+}
+
+.Login-button{
+  margin-top:20px;
+  border-style: none;
+  width: 70%;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #007aff;
+  color: #ffffff;
+}

@@ -1,0 +1,47 @@
+.footer-dua {
+    height: 300px;
+    width: 270px;
+
+}
+
+.judul {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.alamat {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #D6D6D6;
+}
+
+.kontak {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #D6D6D6;
+}
+
+.telepon, .email {
+    display: flex;
+}
+
+.telepon .material-icons {
+    padding-right: 10px;
+}
+
+.email .material-icons {
+    padding-right: 10px;
+}

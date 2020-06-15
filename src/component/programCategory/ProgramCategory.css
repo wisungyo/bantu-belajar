@@ -1,0 +1,47 @@
+.Home-DC{
+    margin-top: 76px;
+}
+
+.Home-DC-Title{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #4d4d4d;
+}
+
+.Home-DC ul {
+   list-style: none;
+   padding-top: 10px;
+   text-align: center;
+}
+
+.Home-DC li {
+    display: inline-block;
+    padding-right: 90px;
+}
+
+.Home-DC li p {
+    padding-top: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #007AFF;
+    padding-bottom: 30px;
+}
+
+.Line{
+    background: #E4EEFF;
+    height: 5px;
+}
+
+.Home-DC-list img {
+    width: 90%;
+}

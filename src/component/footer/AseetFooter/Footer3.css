@@ -1,0 +1,31 @@
+.footer-tiga {
+height:200px;
+width: 200px;
+}
+
+.judul-footer-tiga p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+   
+    color: #FFFFFF;
+    
+}
+
+.twitter {
+    margin-right: 20px;
+}
+
+.instagram {
+    margin-right: 20px;
+}
+
+/* .bagian-bawah {
+    display: flex;
+} */
+
+.bagian-bawah .material-icons {
+    padding-right: 10px;
+}

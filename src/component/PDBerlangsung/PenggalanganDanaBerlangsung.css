@@ -1,0 +1,26 @@
+.Background {
+    background-color: #E4EEFF ;
+    height: 611px;
+    width: 100%;
+    font-family: roboto;
+}
+
+.BD-Header{
+    margin-left: 6%;
+    margin-top: 5%;
+    color: #4D4D4D;
+    font-size: 25px;
+   
+}
+.BD-Header-Right{
+    margin-left: 45%;
+    margin-top: 6%;
+    font-size: 15px;
+    color: #007AFF;
+}
+
+.between {
+    margin-top: 2%;
+    margin-left: 5%;
+    display: flex;
+}

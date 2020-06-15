@@ -1,0 +1,320 @@
+.Product-section{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #ffffff;
+  /* width: 1440px; */
+  /* height: 2438px; */
+}
+
+.Product-img{
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+
+.Product-img img{
+  width: 100%;
+}
+
+.Pict1 {
+  padding-left: -10px;
+}
+.Pict{
+  margin-right: 20px;;
+}
+.Product-desc{
+  width: 470px;
+  height: 644px;
+  border-radius: 5px;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #dddddd;
+  background-color: #ffffff;
+  margin-left: 580px;
+  padding: 16px 16px 16px 24px;
+}
+
+.Desc-header{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  text-align: left;
+}
+
+.Desc-cat-div{
+  width: 80px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: #e4eeff;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  margin-bottom: 27px;
+}
+
+.Desc-cat-text{
+  /* width: 63px;
+  height: 16px; */
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  /* font-stretch: normal; */
+  font-style: normal;
+  /* line-height: normal;
+  letter-spacing: normal; */
+  color: #007aff;
+}
+
+.progress-info-wrapper {
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  /* background-color: red; */
+  /* padding: auto 0 !important; */
+}
+
+.progress-bar-wrapper {
+  width: 90%;
+  /* display: flex; */
+  /* align-items: center; */
+  padding-top: 7px;
+}
+
+.progress {
+  border-radius: 50px !important;
+  height: 9px !important;
+  /* display: block !important; */
+  margin: auto 0 !important;
+}
+
+.Donate-collection{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #757575;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.Donate-collectionCount{
+  text-align: left;
+}
+
+.Donate-text {
+  display: inline-flex;
+}
+
+.Donate-text-div{
+  margin-left: -10px;
+}
+
+.Collection1{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #007aff;
+}
+
+.Collection2{
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4d4d4d;
+}
+
+.Donate-date{
+  width: 121px;
+  height: 24px;
+  margin-left: 60px;
+  border-radius: 15px;
+  background-color: #e4eeff;
+}
+
+.Line {
+  margin-top: 16px;
+  height: 4px;
+  background-color: #eeeeee;
+}
+
+.Desc-penggalang{
+  margin-top: 36px;
+  overflow: hidden;
+  display: flex;
+}
+
+.Logo-penggalang{
+  width: 10%;
+}
+
+.Detail-penggalang {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.Name-penggalang {
+  margin-left: -190px;
+  padding-right: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #757575;
+}
+
+.Detail-penggalang img {
+    width: 15px;
+
+  height: 15px;
+
+  border: solid 1px #ffffff;
+}
+
+.Detail-penggalang .Name-penggalang, .Detail-penggalang img {
+  display: inline-block;
+}
+
+.Penggalang-location {
+  display: flex;
+  margin-top: -10px;
+}
+
+.Penggalang-location p {
+  /* width: 89.5px; */
+  /* height: 14px; */
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #757575;
+  padding-left: 10px;
+}
+
+.Penggalang-location img {
+  width: 14px;
+  height: 16px;
+}
+
+.Tanggal {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #757575;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.Desc-donate{
+  margin-top: 10px;
+  padding: 10px;
+  /* height: 200px; */
+  border-radius: 5px;
+  background-color: rgba(0, 122, 255, 0.05);
+}
+
+.Desc-donate p {
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7d7d;
+}
+
+.Button-donate{
+  margin-top: 30px;
+  width: 400px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #007aff;
+  border-style: none;
+}
+
+.Button-donate span {
+  width: 136px;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Button-share{
+  margin-top: 24px;
+  border-style: none;
+  width: 400px;
+  height: 48px;
+  border-radius: 5px;
+  border: solid 1px #007aff;
+  background-color: #ffffff;
+}
+
+.Button-share img {
+  padding-right: 8px;
+}
+
+.Button-share span {
+    width: 107px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #007aff;
+}
+
+.Product-image-bottom{
+  display: flex;
+}
+
+.Pict1{
+  margin-left: -13px;
+}
+
+.Image{
+  box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
+  background-color: #c4c4c4;
+  width: 33.33%;
+}
+
+.Img {
+  width: 70%;
+}

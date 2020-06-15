@@ -1,0 +1,138 @@
+.Payment-header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  /* height: 500px; */
+}
+
+.Payment-card{
+  /* position: absolute; */
+  width: 570px;
+  height: 500px;
+  /* left: 412px; */
+  /* top: 100px; */
+
+  background: #FFFFFF;
+  /* mix-blend-mode: normal; */
+  border: 1px solid #DDDDDD;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.Payment-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 20px;
+
+  /* identical to box height, or 133% */
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: center;
+
+  color: #4E4E4E;
+}
+
+.Paymnet-instruction{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #4E4E4E;
+}
+
+.Payment-note {
+  margin-top: 34px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+
+  color: #4E4E4E;
+}
+
+
+.Payment-method-list{
+  border: 1px solid rgba(0, 122, 255, 0.05);
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 49px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  background: rgba(0, 122, 255, 0.05);
+}
+
+.Payment-bank {
+  padding-top: 6px;
+  float: left;
+  padding-left: 10px;
+}
+
+.Payment-method-list p {
+  display: initial;
+  float: left;
+  padding-left: 20px;
+}
+
+.Copy{
+  margin-left: 190px;
+  margin-top: 2px;
+  border-style: none;
+  display: block;
+  background-color: Transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #007AFF;
+}
+
+.Payment-account{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+
+  color: #3D3D3D;
+}
+
+.Payment-button{
+  margin-top: 30px;
+  width: 480px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #007aff;
+  border-style: none;
+}
+
+.Payment-button span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #FFFFFF;
+}
